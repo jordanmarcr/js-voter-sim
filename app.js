@@ -64,7 +64,7 @@ let independentCandidates = [];
           $('#candidate-list ul').append(li);
       });
 
-      $('.btn.btn-danger').click(function(){   //NEED TO FIX THIS!!!
+      $('.btn.btn-danger').click(function(){   //?????
           vote(voters);
           // console.log('winner:'+ winner(allCandidates))
           alert(winner(allCandidates));
